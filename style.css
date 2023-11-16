@@ -1,0 +1,114 @@
+body{
+	background: linear-gradient(to bottom,rgb(255, 255, 255, 0) 40%,rgb(30, 30, 30, 1.0));
+	color: black;
+	font-family: 'Roboto', sans-serif;}
+
+h1 {
+	font-size: 60px;
+	font-family: 'Gabarito', sans-serif;}
+
+a{
+	text-decoration:none;
+	color: black;}
+
+a:hover{
+	color: blue;
+	text-decoration:none;
+	transition: color 0.2s ease;}
+
+#Peta{
+	width: 500px;
+	border-radius: 20px;
+	position: relative;
+	z-index: 1}
+
+.nadpis{
+	position: relative;
+	z-index: 3;
+	}
+
+.linky1{
+	text-align: center;
+	position: absolute;
+	top:20%;
+	left:20%;
+	z-index: 5}
+
+.linky2{
+	position: absolute;
+	top: 20%;
+	right:20%;
+	z-index: 5}
+
+.linky1 li{
+	display: inline-block;
+	padding: 10px}
+.linky2 li{
+	padding: 10px}
+.linky1 i{
+	font-size: 100px}
+.linky2 i{
+	font-size: 100px}
+
+
+.paragraphs{
+	position:relative;
+	z-index: 3;
+	margin: 0px;}
+
+ul{
+	list-style: none;
+padding: 0px}
+
+.link1 i{
+	color: purple;
+	background-color: white;
+	padding: 9px 15px 7px;
+	border-radius: 20%}
+.link2 i{
+	color: blue;
+	background-color: white;
+	padding: 9px 15px 7px;
+	border-radius: 20%}
+.link3 i{
+	color: green;
+	background-color: white;
+	padding: 9px 15px 7px;
+	border-radius: 20%;
+	font-size: 120px}
+.link4 i{
+	color: gold;
+	background-color: white;
+	padding: 9px 15px 7px;
+	border-radius: 20%;
+		}
+.link1 i:hover{
+	background-color: rgb(40, 40, 40, 1.0);}
+.link2 i:hover{
+	background-color: rgb(40, 40, 40, 1.0);}
+.link3 i:hover{
+	background-color: rgb(40, 40, 40, 1.0);}
+.link4 i:hover{
+	background-color: rgb(40, 40, 40, 1.0);}
+
+.blocky{
+	padding: 15px;
+	width:90%;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 3px 3px 20px black;}
+
+@media(max-width:1320px){
+	#Peta{width:350px}}
+
+@media(max-width:1070px){
+	.linky1{
+		text-align: center;
+		position: absolute;
+		top:20%;
+		left:0%;}
+
+	.linky2{
+		position: absolute;
+		top: 20%;
+		right:0%;}
